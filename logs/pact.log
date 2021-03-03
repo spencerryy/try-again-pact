@@ -1,0 +1,30 @@
+I, [2021-03-02T16:48:52.504931 #3440]  INFO -- : Registered expected interaction GET /
+D, [2021-03-02T16:48:52.504931 #3440] DEBUG -- : {
+  "description": "helloworld",
+  "providerState": "a request to get Hello World",
+  "request": {
+    "method": "GET",
+    "path": "/",
+    "headers": {
+      "Accept": "application/json,text/plain, */*"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "Hello World"
+  },
+  "metadata": null
+}
+W, [2021-03-02T16:48:52.522502 #3440]  WARN -- : Verifying - actual interactions do not match expected interactions. 
+Missing requests:
+	GET /
+
+
+W, [2021-03-02T16:48:52.523236 #3440]  WARN -- : Missing requests:
+	GET /
+
+
+I, [2021-03-02T16:48:52.540398 #3440]  INFO -- : Cleared interactions
